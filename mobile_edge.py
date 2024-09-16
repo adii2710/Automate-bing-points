@@ -73,14 +73,6 @@ def secure_folder(namee):
     time.sleep(1)
     adb_tap(518, 1407)
     time.sleep(0.8)
-    # adb_tap(530, 1555)dapperest
-    # time.sleep(0.8)
-    # adb_tap(200, 1740)
-    # time.sleep(0.3)
-    # adb_tap(504, 1893)
-    # time.sleep(0.3)
-    # adb_tap(548, 1719)
-    # time.sleep(0.3)
     adb_input_text(2485)
     adb_tap(885, 2042)
     time.sleep(2)
@@ -105,7 +97,7 @@ def secure_folder(namee):
         time.sleep(0.5)
         adb_input_text(generated_words[0])
 
-apps=[1, 2, "com.microsoft.bing", "com.microsoft.emmx", ] #Package name in your Android device
+apps=[1, 2, "com.microsoft.bing", "com.microsoft.emmx" ] #Package name in your Android device
 
 def searches():
     # Number of words to generate
