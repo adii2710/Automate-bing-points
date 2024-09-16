@@ -53,8 +53,7 @@ def bingPoints():
         print(generated_words[0])
         execu -=1
 
-nums=['2', '7', '8', '9']
-# nums=['8', '9']
+nums=['2', '7', '8', '9'] #The taskbar postion of your edge apps
 for i in range(len(nums)):
     pyautogui.hotkey('win', nums[i])
     bingPoints()
