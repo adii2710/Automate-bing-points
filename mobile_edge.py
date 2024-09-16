@@ -105,7 +105,7 @@ def secure_folder(namee):
         time.sleep(0.5)
         adb_input_text(generated_words[0])
 
-apps=[1, 2, "com.microsoft.bing", "com.microsoft.emmx", ]
+apps=[1, 2, "com.microsoft.bing", "com.microsoft.emmx", ] #Package name in your Android device
 
 def searches():
     # Number of words to generate
